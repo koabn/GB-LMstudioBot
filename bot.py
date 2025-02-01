@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Константы
-TELEGRAM_TOKEN = "7349372655:AAFwGi3yz1sX9IS-dgTuDaeHBnpCFMbvy50"
+TELEGRAM_TOKEN = ""
 LLM_API_URL = "http://127.0.0.1:1234/v1/chat/completions"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
